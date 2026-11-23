@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>도립 물구나무 훈련소 | 핸드밸런싱 · 물구나무 전문</title>
+<meta name="description" content="서울 영등포 도립 물구나무 훈련소. 물리치료사 출신 핸드밸런서 도립맨이 해부학 기반으로 지도하는 핸드밸런싱·물구나무 소수 순환 코칭. 수강권 안내와 회원 전용 가이드북." />
+<meta name="theme-color" content="#0e1012" />
+<meta property="og:title" content="도립 물구나무 훈련소" />
+<meta property="og:description" content="해부학 기반 핸드밸런싱 · 물구나무 코칭. 서울 영등포." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230e1012'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23f2a33c' font-family='sans-serif' font-weight='700'>도</text></svg>" />
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/" aria-label="도립 물구나무 훈련소 홈">
+      <span class="brand-mark">도립</span>
+      <span class="brand-text">물구나무 훈련소</span>
+    </a>
+
+    <nav class="tabs" id="mainTabs" aria-label="주요 메뉴">
+      <a class="tab is-active" href="#/" data-tab="home">소개</a>
+      <a class="tab" href="#/guide" data-tab="guide">회원 가이드북</a>
+      <a class="tab" href="#/admin" data-tab="admin" id="adminTab" hidden>관리자</a>
+    </nav>
+
+    <div class="account" id="accountBox" aria-live="polite"></div>
+  </div>
+</header>
+
+<div class="notice" id="configNotice" hidden>
+  <div class="wrap notice-inner">
+    <strong>설정 필요</strong>
+    <span><code>config.js</code>의 <code>SUPABASE_URL</code>과 <code>SUPABASE_ANON_KEY</code>를 채우면 회원 로그인과 가이드북 영상이 켜집니다. 지금은 소개 페이지만 동작합니다.</span>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============================================================
+       소개
+       ============================================================ -->
+  <section class="view" id="view-home">
+    <div class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">서울 영등포 · 핸드밸런싱 스튜디오</p>
+        <h1>물구나무를,<br />몸의 구조부터.</h1>
+        <p class="hero-lead">
+          물리치료사 출신 핸드밸런서 <strong>도립맨</strong>이 인체 해부학을 기준으로 지도하는
+          핸드밸런싱·물구나무 훈련소입니다. 한 타임 소수 정원의 순환 코칭으로,
+          지금 몸에 맞는 단계부터 차근차근 쌓아 올립니다.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pricing">수강권 보기</a>
+          <a class="btn btn-ghost js-contact" href="#" data-contact="instagram">예약 · 문의</a>
+        </div>
+        <dl class="hero-facts">
+          <div><dt>코칭</dt><dd>해부학 기반 진단</dd></div>
+          <div><dt>인원</dt><dd>한 타임 최대 7명</dd></div>
+          <div><dt>구성</dt><dd>60분 · 120분</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <section class="section wrap" id="philosophy">
+      <div class="section-head">
+        <p class="eyebrow">Coaching philosophy</p>
+        <h2>세게 밀어붙이지 않습니다.<br />몸이 서는 순서를 지도합니다.</h2>
+        <p class="lede">
+          물구나무는 힘으로 버티는 기술이 아니라, 손목·어깨·흉추·골반이 힘을 주고받는 정렬의 문제입니다.
+          어디가 막혀 있고 어디가 과하게 쓰이고 있는지 먼저 확인한 뒤, 그 사람에게 필요한 순서로 훈련을 조립합니다.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <span class="card-num">01</span>
+          <h3>해부학 기반 진단</h3>
+          <p>물리치료사로 일했던 경험으로 관절 가동범위와 정렬을 먼저 봅니다. 통증과 부상 이력이 있는 분도 현재 상태에 맞춰 시작합니다.</p>
+        </article>
+        <article class="card">
+          <span class="card-num">02</span>
+          <h3>소수 정원 순환 코칭</h3>
+          <p>한 타임 최대 7명. 코칭 시간에 각자의 자세를 직접 잡아 드리고, 나머지 시간은 자기 훈련으로 채웁니다. 1:1이 아니어도 눈은 개인에게 맞춥니다.</p>
+        </article>
+        <article class="card">
+          <span class="card-num">03</span>
+          <h3>단계별로 쌓는 기록</h3>
+          <p>매 수업 회차를 기록하며 다음 단계를 정합니다. 급하게 기술을 늘리는 대신, 서는 힘이 남는 방향으로 진행합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="program">
+      <div class="section-head">
+        <p class="eyebrow">Program</p>
+        <h2>수업 구성</h2>
+        <p class="lede">60분과 120분, 두 가지로 운영합니다. 코칭은 40분, 나머지는 각자 훈련하는 시간입니다.</p>
+      </div>
+
+      <div class="program-grid">
+        <article class="program-card">
+          <header>
+            <h3>60분 수업</h3>
+            <p class="program-meta">코칭 40분 + 자가 훈련 20분</p>
+          </header>
+          <p>처음 시작하거나 주 1~2회로 꾸준히 다지고 싶을 때. 기본 정렬과 손목·어깨 준비, 기초 밸런스를 잡습니다.</p>
+        </article>
+        <article class="program-card">
+          <header>
+            <h3>120분 수업</h3>
+            <p class="program-meta">코칭 40분 + 자가 훈련 80분</p>
+          </header>
+          <p>기술을 본격적으로 올리거나 훈련량이 필요한 때. 코칭 후 충분한 자가 훈련으로 그날 배운 것을 몸에 남깁니다.</p>
+        </article>
+      </div>
+      <p class="fineprint">
+        한 타임 정원은 7명입니다. 같은 시간대에 여러 명이 함께 훈련하며, 코칭은 순환 방식으로 돌아갑니다.
+      </p>
+    </section>
+
+    <section class="section wrap" id="pricing">
+      <div class="section-head">
+        <p class="eyebrow">Pricing</p>
+        <h2>수강권 안내</h2>
+        <p class="lede">아래 금액은 2026년 11월 기준입니다. 수강권은 결제일로부터 유효기간이 시작됩니다.</p>
+      </div>
+
+      <div class="price-block price-block-wide">
+        <h3 class="price-title">최초 1회권 <span class="tag">1인 1회 한정</span></h3>
+        <table class="price-table">
+          <caption class="sr-only">최초 1회권 요금</caption>
+          <thead><tr><th scope="col">구분</th><th scope="col">금액</th><th scope="col">비고</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">60분 1회</th><td class="price">40,000원</td><td>첫 수업</td></tr>
+            <tr><th scope="row">120분 1회</th><td class="price">70,000원</td><td>첫 수업</td></tr>
+          </tbody>
+        </table>
+        <p class="fineprint">
+          첫 수업 <strong>당일</strong> 정규 수강권을 등록하시면 그 1회차가 정규권에 포함되어,
+          정규권 금액만 결제하시면 됩니다.
+        </p>
+      </div>
+
+      <div class="price-block">
+        <h3 class="price-title">60분 정규 수강권</h3>
+        <table class="price-table">
+          <caption class="sr-only">60분 정규 수강권 요금</caption>
+          <thead><tr><th scope="col">회차</th><th scope="col">금액</th><th scope="col">유효기간</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">5회</th><td class="price">180,000원</td><td>1개월</td></tr>
+            <tr><th scope="row">10회</th><td class="price">350,000원</td><td>3개월</td></tr>
+            <tr><th scope="row">20회</th><td class="price">640,000원</td><td>5개월</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="price-block">
+        <h3 class="price-title">120분 정규 수강권</h3>
+        <table class="price-table">
+          <caption class="sr-only">120분 정규 수강권 요금</caption>
+          <thead><tr><th scope="col">회차</th><th scope="col">금액</th><th scope="col">유효기간</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">5회</th><td class="price">330,000원</td><td>2개월</td></tr>
+            <tr><th scope="row">10회</th><td class="price">620,000원</td><td>4개월</td></tr>
+            <tr><th scope="row">20회</th><td class="price">1,160,000원</td><td>6개월</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="price-block price-block-accent price-block-wide">
+        <h3 class="price-title">여유 5회권 <span class="tag">타지역·원거리 방문자 전용</span></h3>
+        <table class="price-table">
+          <caption class="sr-only">여유 5회권 요금</caption>
+          <thead><tr><th scope="col">구분</th><th scope="col">금액</th><th scope="col">유효기간</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">60분 5회</th><td class="price">250,000원</td><td>3개월</td></tr>
+            <tr><th scope="row">120분 5회</th><td class="price">400,000원</td><td>4개월</td></tr>
+          </tbody>
+        </table>
+        <p class="fineprint">먼 지역에서 오시는 분을 위한 넉넉한 유효기간의 수강권입니다. 상담 후 등록할 수 있습니다.</p>
+      </div>
+
+      <div class="policy">
+        <h3>환불 규정</h3>
+        <p>
+          유효기간 내 중도 환불을 요청하시면, 이용 완료한 회차는 <strong>정가 기준</strong>(1회권 금액 또는
+          해당 수강권의 1회당 금액 중 높은 금액)으로 차감하고, 총 결제 금액의 <strong>10% 위약금</strong>을
+          공제한 뒤 환불합니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="location">
+      <div class="section-head">
+        <p class="eyebrow">Location</p>
+        <h2>오시는 길</h2>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-card">
+          <p class="location-address" id="studioAddress">서울 영등포구 양평로24길 9, 107동 1층 21호</p>
+          <dl class="location-list">
+            <div><dt>건물</dt><dd>107동 1층 21호</dd></div>
+            <div><dt>예약</dt><dd>방문 전 예약 필수</dd></div>
+            <div><dt>수업</dt><dd>60분 · 120분</dd></div>
+          </dl>
+          <div class="location-actions">
+            <a class="btn btn-primary" id="mapLink" href="#" target="_blank" rel="noopener">네이버 지도에서 열기</a>
+            <button class="btn btn-ghost" type="button" id="copyAddressBtn">주소 복사</button>
+          </div>
+          <p class="fineprint">지도 앱에서 <strong>도립 물구나무 훈련소</strong>로 검색하시면 바로 찾으실 수 있습니다.</p>
+        </div>
+
+        <div class="contact-card" id="contact">
+          <h3>예약 · 문의</h3>
+          <p>수업 일정과 등록 가능 여부는 인스타그램 DM 또는 카카오톡 채널로 문의해 주세요.</p>
+          <div class="contact-buttons">
+            <a class="btn btn-primary js-contact" href="#" data-contact="instagram">인스타그램 DM</a>
+            <a class="btn btn-ghost js-contact" href="#" data-contact="kakao">카카오톡 채널</a>
+            <a class="btn btn-ghost js-contact" href="#" data-contact="naverPlace">네이버 플레이스</a>
+          </div>
+          <p class="fineprint" id="contactNote">방문 전 예약은 필수입니다. 수업 중에는 전화를 받기 어려우니 인스타그램 DM이나 카카오톡 채널로 문의해 주세요.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="cta-band">
+        <div>
+          <h2>회원이신가요?</h2>
+          <p>도립맨님이 승인한 회원은 가이드북에서 챕터별 훈련 영상을 다시 볼 수 있습니다.</p>
+        </div>
+        <a class="btn btn-primary" href="#/guide">회원 가이드북 가기</a>
+      </div>
+    </section>
+  </section>
+
+  <!-- ============================================================
+       회원 가이드북
+       ============================================================ -->
+  <section class="view" id="view-guide" hidden>
+    <div class="wrap">
+      <header class="view-head">
+        <p class="eyebrow">Members only</p>
+        <h2>회원 가이드북</h2>
+        <p class="lede">도립맨님이 승인한 회원만 영상을 볼 수 있습니다. 승인 후 챕터별 훈련 영상을 반복해서 보세요.</p>
+      </header>
+
+      <!-- 로그인 · 회원가입 -->
+      <div class="panel auth-panel" id="authPanel">
+        <div class="auth-switch" role="tablist" aria-label="로그인 또는 회원가입">
+          <button class="auth-tab is-active" type="button" role="tab" aria-selected="true" data-auth-tab="login">로그인</button>
+          <button class="auth-tab" type="button" role="tab" aria-selected="false" data-auth-tab="signup">회원가입</button>
+        </div>
+
+        <form class="form" id="loginForm" novalidate>
+          <label class="field">
+            <span>이메일</span>
+            <input type="email" name="email" autocomplete="email" inputmode="email" placeholder="example@email.com" required />
+          </label>
+          <label class="field">
+            <span>비밀번호</span>
+            <input type="password" name="password" autocomplete="current-password" placeholder="비밀번호" required />
+          </label>
+          <button class="btn btn-primary btn-block" type="submit">로그인</button>
+          <p class="form-msg" data-msg role="alert"></p>
+        </form>
+
+        <form class="form" id="signupForm" hidden novalidate>
+          <label class="field">
+            <span>이름</span>
+            <input type="text" name="name" autocomplete="name" placeholder="수업 때 불리는 이름" required maxlength="30" />
+          </label>
+          <label class="field">
+            <span>이메일</span>
+            <input type="email" name="email" autocomplete="email" inputmode="email" placeholder="example@email.com" required />
+          </label>
+          <label class="field">
+            <span>비밀번호</span>
+            <input type="password" name="password" autocomplete="new-password" placeholder="6자 이상" required minlength="6" />
+          </label>
+          <button class="btn btn-primary btn-block" type="submit">가입 신청</button>
+          <p class="form-msg" data-msg role="alert"></p>
+          <p class="fineprint">가입 후 도립맨님이 확인해 승인하면 영상이 열립니다. 승인 전에는 영상 목록이 보이지 않습니다.</p>
+        </form>
+      </div>
+
+      <!-- 승인 대기 -->
+      <div class="panel state-panel" id="pendingPanel" hidden>
+        <div class="state-icon" aria-hidden="true">⏳</div>
+        <h3 id="pendingTitle">승인 대기 중</h3>
+        <p id="pendingBody">가입 신청이 접수되었습니다. 도립맨님이 확인 후 승인하면 회원 가이드북 영상을 볼 수 있습니다.</p>
+        <p class="state-user" id="pendingUser"></p>
+        <div class="state-actions">
+          <button class="btn btn-ghost" type="button" id="refreshProfileBtn">승인 상태 새로고침</button>
+          <button class="btn btn-quiet" type="button" data-logout>로그아웃</button>
+        </div>
+      </div>
+
+      <!-- 프로필 불러오는 중 -->
+      <div class="panel state-panel" id="loadingPanel" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <p>회원 정보를 확인하고 있습니다…</p>
+      </div>
+
+      <!-- 설정 오류 -->
+      <div class="panel state-panel" id="setupPanel" hidden>
+        <div class="state-icon" aria-hidden="true">⚙️</div>
+        <h3>연결 설정이 필요합니다</h3>
+        <p id="setupBody">Supabase 연결 정보가 아직 입력되지 않았습니다.</p>
+      </div>
+
+      <!-- 영상 목록 -->
+      <div class="guide-body" id="videosPanel" hidden>
+        <div class="guide-toolbar">
+          <p class="guide-hello" id="guideHello"></p>
+          <button class="btn btn-quiet btn-sm" type="button" data-logout>로그아웃</button>
+        </div>
+        <div class="chips" id="chapterChips" role="tablist" aria-label="챕터 선택"></div>
+        <div class="video-list" id="videoList"></div>
+        <p class="empty" id="videoEmpty" hidden>아직 등록된 영상이 없습니다. 도립맨님이 곧 올려 드립니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       관리자
+       ============================================================ -->
+  <section class="view" id="view-admin" hidden>
+    <div class="wrap">
+      <header class="view-head">
+        <p class="eyebrow">Admin</p>
+        <h2>관리자</h2>
+        <p class="lede">회원 승인과 영상 목록을 관리합니다. 이 화면은 관리자 계정에만 보입니다.</p>
+      </header>
+
+      <div class="panel state-panel" id="adminGate" hidden>
+        <div class="state-icon" aria-hidden="true">🔒</div>
+        <h3>관리자 전용입니다</h3>
+        <p>관리자 계정으로 로그인해 주세요.</p>
+      </div>
+
+      <div id="adminBody" hidden>
+        <div class="segmented" role="tablist" aria-label="관리 항목">
+          <button class="segment is-active" type="button" role="tab" aria-selected="true" data-admin-tab="members">회원 승인</button>
+          <button class="segment" type="button" role="tab" aria-selected="false" data-admin-tab="videos">영상 관리</button>
+        </div>
+
+        <div id="adminMembers">
+          <div class="panel-toolbar">
+            <h3>가입 회원 <span class="count" id="memberCount"></span></h3>
+            <button class="btn btn-ghost btn-sm" type="button" id="refreshMembersBtn">새로고침</button>
+          </div>
+          <div class="member-list" id="memberList"></div>
+          <p class="empty" id="memberEmpty" hidden>아직 가입한 회원이 없습니다.</p>
+        </div>
+
+        <div id="adminVideos" hidden>
+          <div class="panel-toolbar">
+            <h3>등록된 영상 <span class="count" id="videoCount"></span></h3>
+            <button class="btn btn-primary btn-sm" type="button" id="showVideoFormBtn">영상 추가</button>
+          </div>
+
+          <div class="admin-video-list" id="adminVideoList"></div>
+          <p class="empty" id="adminVideoEmpty" hidden>등록된 영상이 없습니다. 위의 '영상 추가'를 눌러 첫 영상을 올려 보세요.</p>
+
+          <form class="panel form" id="videoForm" hidden novalidate>
+            <h3 id="videoFormTitle">영상 추가</h3>
+            <div class="form-row">
+              <label class="field">
+                <span>챕터</span>
+                <input type="text" name="chapter" list="chapterOptions" placeholder="예: 기초" required maxlength="40" />
+                <datalist id="chapterOptions"></datalist>
+              </label>
+              <label class="field">
+                <span>정렬 순서</span>
+                <input type="number" name="sort_order" value="0" step="1" inputmode="numeric" />
+              </label>
+            </div>
+            <label class="field">
+              <span>제목</span>
+              <input type="text" name="title" placeholder="예: 손목 워밍업 루틴" required maxlength="120" />
+            </label>
+            <label class="field">
+              <span>설명 (선택)</span>
+              <textarea name="description" rows="2" maxlength="400" placeholder="어떤 훈련인지 한두 줄로 적어 주세요."></textarea>
+            </label>
+            <label class="field">
+              <span>영상 주소</span>
+              <input type="url" name="video_url" placeholder="https://youtu.be/..." required />
+            </label>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="videoSubmitBtn">추가하기</button>
+              <button class="btn btn-quiet" type="button" id="videoCancelBtn">닫기</button>
+            </div>
+            <p class="form-msg" data-msg role="alert"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-brand">도립 물구나무 훈련소</p>
+      <p class="footer-sub">Dolib Handbalancing Training Studio</p>
+    </div>
+    <p class="footer-address" id="footerAddress">서울 영등포구 양평로24길 9, 107동 1층 21호</p>
+    <p class="footer-copy">© <span id="year">2026</span> 도립 물구나무 훈련소</p>
+  </div>
+</footer>
+
+<nav class="bottom-nav" aria-label="하단 메뉴">
+  <a class="bottom-tab is-active" href="#/" data-tab="home">
+    <span class="bottom-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10.6 12 3.8l8.5 6.8"/><path d="M5.7 9.5V20h12.6V9.5"/></svg></span>
+    <span>소개</span>
+  </a>
+  <a class="bottom-tab" href="#/guide" data-tab="guide">
+    <span class="bottom-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.4A2.4 2.4 0 0 1 6.4 3H20v14.6H6.8A2.8 2.8 0 0 0 4 20.4z"/><path d="M4 17.6A2.8 2.8 0 0 1 6.8 14.8H20"/></svg></span>
+    <span>가이드북</span>
+  </a>
+  <a class="bottom-tab" href="#/admin" data-tab="admin" id="adminBottomTab" hidden>
+    <span class="bottom-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="2.3"/><path d="M3.8 8H5.6M10.4 8H20.2"/><circle cx="16" cy="16" r="2.3"/><path d="M3.8 16h9.8M18.4 16h2"/></svg></span>
+    <span>관리자</span>
+  </a>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
